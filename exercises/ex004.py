@@ -1,0 +1,10 @@
+# Create a program that reads something via keyboard and displays its primitive type and all possible information about it on the screen.
+something = input('Enter something: ')
+print('The primite type of this value is: {}.'.format(type(something)))
+print('Are there only spaces? {}'.format(something.isspace()))
+print('Is number? {}'.format(something.isnumeric()))
+print('Is alhpabetic? {}'.format(something.isalpha()))
+print('Is alphanumeric? {}'.format(something.isalnum()))
+print('Is uppercase? {}'.format(something.isupper()))
+print('Is lowercase? {}'.format(something.islower()))
+print('Is title? {}'.format(something.istitle()))
